@@ -1,0 +1,19 @@
+{
+  "name": "did-sso-server2",
+  "version": "1.0.0",
+  "description": "DID SSO Server with encrypted vault",
+  "main": "sso-server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node sso-server.js",
+    "dev": "node sso-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
